@@ -4,9 +4,9 @@ self.addEventListener('install', function(e) {
     caches.open('fitnessapp-cache').then(function(cache) {
       return cache.addAll([
         '/',
-        '/index.html',
-        '/sign_up.html',
-        '/tracker.html'
+        '/FitnessApp_Login_Linked_SignUp.html',
+        '/FitnessApp_SignUp_Linked_Login.html',
+        '/Running_and_Workout_Tracker_Reverted_to_Final_Spacing.html'
       ]);
     })
   );
