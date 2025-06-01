@@ -58,6 +58,17 @@
             font-family: 'Segoe UI', sans-serif;
             font-size: 16px;
         }
+
+input[type="text"], input[type="password"], button, a {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    max-width: 250px;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
 </style>
 </head>
 <body>
@@ -66,24 +77,39 @@
         <input type="text" id="username" placeholder="Username"><br>
         <input type="password" id="password" placeholder="Password"><br>
         <button onclick="signup()">Sign Up</button>
+<p style="font-size: 0.9rem; max-width: 300px; margin-top: 10px;">
+Password must be at least 8 characters long and include a number.
+</p>
+
         <a href="index.html">Back to Login</a>
     </div>
 
     
 
+
+
 <script>
 function signup() {
-    const username = document.getElementById("username").value;
+    const username = document.getElementById("username").value.trim();
     const password = document.getElementById("password").value;
     if (!username || !password) {
-        alert("Please enter a username and password.");
+        alert("Please enter a username and password");
+        return;
+    }
+    if (localStorage.getItem("user_" + username)) {
+        alert("Username already exists");
+        return;
+    }
+    if (password.length < 8 || !/[0-9]/.test(password)) {
+        alert("Password does not meet requirements");
         return;
     }
     localStorage.setItem("user_" + username, password);
-    alert("Account created! You can now log in.");
+    alert("Account created");
     window.location.href = "index.html";
 }
 </script>
 </body>
+
 
 </html>
