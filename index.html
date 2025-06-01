@@ -104,19 +104,28 @@
 
     
 
+
+
 <script>
 function login() {
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
     const storedPassword = localStorage.getItem("user_" + username);
+    if (!username || !password) {
+        alert("Please enter both username and password.");
+        return;
+    }
     if (storedPassword === password) {
         localStorage.setItem("fitnessAppUser", username);
-        alert("Login successful! Redirecting...");
+        alert("Login successful! Redirecting to the menu...");
         window.location.href = "menu.html";
     } else {
         alert("Invalid username or password.");
+        console.log("Entered:", username, password);
+        console.log("Stored:", storedPassword);
     }
 }
 </script>
 </body>
+
 </html>
