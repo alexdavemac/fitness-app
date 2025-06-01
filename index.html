@@ -100,7 +100,7 @@
         <input type="text" id="username" placeholder="Username"><br>
         <input type="password" id="password" placeholder="Password"><br>
         <button onclick="login()">Log In</button>
-<a href="sign_up.html" class="button-link">Sign Up</a>
+<a href="FitnessApp_SignUp_Page.html" class="button-link">Sign Up</a>
 
         
     </div>
@@ -125,24 +125,14 @@
             }
         }
 
-        
-    
-    function login() {
-        const username = document.getElementById("username").value;
-        const password = document.getElementById("password").value;
-        const storedPassword = localStorage.getItem("user_" + username);
-        if (storedPassword === password) {
-            localStorage.setItem("currentUser", username);
-            window.location.href = "menu.html"; // correct target file
-        } else {
-            alert("Invalid username or password.");
-        }
-    }
-     else {
-            alert("Invalid username or password.");
-        }
-    }
-     else {
+        function login() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const storedPassword = localStorage.getItem('user_' + username);
+            if (storedPassword === password) {
+                localStorage.setItem('fitnessAppUser', username);
+                init();
+            } else {
                 alert('Invalid login');
             }
         }
