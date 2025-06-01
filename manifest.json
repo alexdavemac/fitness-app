@@ -2,7 +2,7 @@
 {
   "name": "Running & Workout Tracker",
   "short_name": "FitnessApp",
-  "start_url": "FitnessApp_Login_Linked_SignUp.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#3e8ed0",
