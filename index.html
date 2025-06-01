@@ -7,17 +7,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="FitnessApp">
     <link rel="apple-touch-icon" href="icon-192.png">
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function() {
-                navigator.serviceWorker.register('service-worker.js').then(function(registration) {
-                    console.log('ServiceWorker registered with scope:', registration.scope);
-                }, function(err) {
-                    console.log('ServiceWorker registration failed:', err);
-                });
-            });
-        }
-    </script>
+    
     
     <meta charset="UTF-8">
     <title>Fitness App</title>
@@ -112,47 +102,21 @@
         <button onclick="goTo('stats')">Statistics</button>
     </div>
 
-    <script>
-        function init() {
-            const user = localStorage.getItem('fitnessAppUser');
-            if (user) {
-                document.getElementById('loginContainer').style.display = 'none';
-                document.getElementById('mainMenu').style.display = 'block';
-                document.getElementById('userDisplay').innerText = user;
-            } else {
-                document.getElementById('loginContainer').style.display = 'block';
-                document.getElementById('mainMenu').style.display = 'none';
-            }
-        }
+    
 
-        function login() {
-            const username = document.getElementById('username').value;
-            const password = document.getElementById('password').value;
-            const storedPassword = localStorage.getItem('user_' + username);
-            if (storedPassword === password) {
-                localStorage.setItem('fitnessAppUser', username);
-                init();
-            } else {
-                alert('Invalid login');
-            }
-        }
-
-         else {
-                localStorage.setItem('user_' + username, password);
-                localStorage.setItem('fitnessAppUser', username);
-                init();
-            }
-        }
-
-        function goTo(page) {
-            if (page === 'tracker') {
-                window.location.href = 'Running_and_Workout_Tracker_Reverted_to_Final_Spacing.html';
-            } else {
-                alert('Page not yet implemented: ' + page);
-            }
-        }
-
-        document.addEventListener("DOMContentLoaded", init);
-    </script>
+<script>
+function login() {
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+    const storedPassword = localStorage.getItem("user_" + username);
+    if (storedPassword === password) {
+        localStorage.setItem("fitnessAppUser", username);
+        alert("Login successful! Redirecting...");
+        window.location.href = "menu.html";
+    } else {
+        alert("Invalid username or password.");
+    }
+}
+</script>
 </body>
 </html>
