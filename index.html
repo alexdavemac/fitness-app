@@ -125,14 +125,19 @@
             }
         }
 
-        function login() {
-            const username = document.getElementById('username').value;
-            const password = document.getElementById('password').value;
-            const storedPassword = localStorage.getItem('user_' + username);
-            if (storedPassword === password) {
-                localStorage.setItem('fitnessAppUser', username);
-                init();
-            } else {
+        
+    function login() {
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+        const storedPassword = localStorage.getItem("user_" + username);
+        if (storedPassword === password) {
+            localStorage.setItem("currentUser", username);
+            window.location.href = "menu.html";
+        } else {
+            alert("Invalid username or password.");
+        }
+    }
+     else {
                 alert('Invalid login');
             }
         }
