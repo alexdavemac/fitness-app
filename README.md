@@ -1,3 +1,4 @@
+
 # 🏋️‍♀️ Fitness App (Progressive Web App)
 
 This project is a mobile-optimized **Progressive Web App (PWA)** designed to help users track their running and workout routines over time. It features a login system, interactive schedule, progress visualization, and can be installed directly to a user’s home screen for offline use — much like a native app.
@@ -72,3 +73,9 @@ The app provides:
 All user data (logins, checklists) is stored **locally** on each device. No information is sent to a server or third-party service.
 
 Multiple users per device is possible in theory, but the app is optimized for one user per device in practice.
+
+---
+
+Feel free to fork, customize, or expand the project!
+
+— Built with help from ChatGPT 💡
