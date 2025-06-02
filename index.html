@@ -3,11 +3,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="refresh" content="0; url=menu.html" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Private Fitness Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script>
+    window.onload = function() {
+      const routineSet = localStorage.getItem("userRoutineId");
+      if (routineSet) {
+        window.location.href = "menu.html";
+      } else {
+        window.location.href = "questionnaire.html";
+      }
+    };
+  </script>
 </head>
 <body>
-  <p>Redirecting to menu...</p>
+  <p>Redirecting...</p>
 </body>
 </html>

@@ -1,11 +1,12 @@
 
 <!DOCTYPE html>
+
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Running & Workout Tracker</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
+<meta charset="utf-8"/>
+<title>Running &amp; Workout Tracker</title>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<style>
         body { font-family: Arial, sans-serif; font-size: 14pt; margin: 20px; line-height: 1.6; }
         h1 { text-align: center; font-size: 20pt; }
         .week { margin-bottom: 30px; border-top: 2px solid #333; padding-top: 15px; }
@@ -20,144 +21,41 @@
     </style>
 </head>
 <body>
-<h1>Running & Workout Tracker</h1>
 
 
 
 
-
-
-<svg id="activityGraph" width="390" height="270" viewBox="0 0 390 270" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 30px;">
-    <style>
-        .bar-label { font-size: 10px; fill: #444; }
-        .label { font-size: 11px; fill: #444; }
-        .legend { font-size: 11px; fill: #222; }
-        .axis { stroke: #ccc; stroke-width: 1; }
-        .run-bar { fill: #f97306; }
-        .workout-dot { fill: #3e8ed0; }
-    </style>
-    <line x1="30" y1="50" x2="380" y2="50" class="axis" />
-    <line x1="30" y1="100" x2="380" y2="100" class="axis" />
-    <line x1="30" y1="150" x2="380" y2="150" class="axis" />
-    <text x="5" y="155" class="label">0</text>
-    <text x="5" y="105" class="label">5km</text>
-    <text x="5" y="55" class="label">10km</text>
-    <line x1="30" y1="150" x2="30" y2="50" class="axis" />
-    <rect x="260" y="15" width="10" height="10" class="run-bar" />
-    <text x="275" y="25" class="legend">Run</text>
-    <circle cx="265" cy="45" r="4" class="workout-dot"/>
-    <text x="275" y="49" class="legend">Workout</text>
-    <g id="graphContent"></g>
-    <text x="30" y="195" class="bar-label" transform="rotate(45 30,195)">Mon 26 May</text>
-<text x="82" y="195" class="bar-label" transform="rotate(45 82,195)">Tue 27 May</text>
-<text x="134" y="195" class="bar-label" transform="rotate(45 134,195)">Wed 28 May</text>
-<text x="186" y="195" class="bar-label" transform="rotate(45 186,195)">Thu 29 May</text>
-<text x="238" y="195" class="bar-label" transform="rotate(45 238,195)">Fri 30 May</text>
-<text x="290" y="195" class="bar-label" transform="rotate(45 290,195)">Sat 31 May</text>
-<text x="342" y="195" class="bar-label" transform="rotate(45 342,195)">Sun 01 Jun</text>
-
-</svg>
-
-
-
-
-
-
-
-
-<div id="trackerContent">
-<div class="week"><h2>Week 1: 02 Jun – 08 Jun</h2><div class="day-group"><strong>Monday (Mon 02 Jun):</strong><br><label><input type="checkbox" id="day-0-act-0" data-day="0" data-type="workout"> Upper Body</label></div><div class="day-group"><strong>Tuesday (Tue 03 Jun):</strong><br><label><input type="checkbox" id="day-1-act-0" data-day="1" data-type="run"> Run 4km</label></div><div class="day-group"><strong>Wednesday (Wed 04 Jun):</strong><br><label><input type="checkbox" id="day-2-act-0" data-day="2" data-type="workout"> Core</label><label><input type="checkbox" id="day-2-act-1" data-day="2" data-type="workout"> Mobility/Stretching</label></div><div class="day-group"><strong>Thursday (Thu 05 Jun):</strong><br><label><input type="checkbox" id="day-3-act-0" data-day="3" data-type="run"> Run 3km</label><label><input type="checkbox" id="day-3-act-1" data-day="3" data-type="workout"> Lower Body</label></div><div class="day-group"><strong>Friday (Fri 06 Jun):</strong><br><label><input type="checkbox" id="day-4-act-0" data-day="4" data-type="workout"> Rest</label></div><div class="day-group"><strong>Saturday (Sat 07 Jun):</strong><br><label><input type="checkbox" id="day-5-act-0" data-day="5" data-type="run"> Run 3km (light recovery pace)</label></div><div class="day-group"><strong>Sunday (Sun 08 Jun):</strong><br><label><input type="checkbox" id="day-6-act-0" data-day="6" data-type="workout"> Full-body Mobility/Stretching</label></div></div><div class="week"><h2>Week 2: 09 Jun – 15 Jun</h2><div class="day-group"><strong>Monday (Mon 09 Jun):</strong><br><label><input type="checkbox" id="day-7-act-0" data-day="7" data-type="workout"> Lower Body</label></div><div class="day-group"><strong>Tuesday (Tue 10 Jun):</strong><br><label><input type="checkbox" id="day-8-act-0" data-day="8" data-type="run"> Run 10km</label></div><div class="day-group"><strong>Wednesday (Wed 11 Jun):</strong><br><label><input type="checkbox" id="day-9-act-0" data-day="9" data-type="workout"> Core</label><label><input type="checkbox" id="day-9-act-1" data-day="9" data-type="workout"> Stretching</label></div><div class="day-group"><strong>Thursday (Thu 12 Jun):</strong><br><label><input type="checkbox" id="day-10-act-0" data-day="10" data-type="workout"> Rest</label></div><div class="day-group"><strong>Friday (Fri 13 Jun):</strong><br><label><input type="checkbox" id="day-11-act-0" data-day="11" data-type="workout"> Upper Body</label></div><div class="day-group"><strong>Saturday (Sat 14 Jun):</strong><br><label><input type="checkbox" id="day-12-act-0" data-day="12" data-type="workout"> Mobility Session</label></div><div class="day-group"><strong>Sunday (Sun 15 Jun):</strong><br><label><input type="checkbox" id="day-13-act-0" data-day="13" data-type="run"> Run 3km (easy pace)</label></div></div><div class="week"><h2>Week 3: 16 Jun – 22 Jun</h2><div class="day-group"><strong>Monday (Mon 16 Jun):</strong><br><label><input type="checkbox" id="day-14-act-0" data-day="14" data-type="workout"> Core</label><label><input type="checkbox" id="day-14-act-1" data-day="14" data-type="workout"> Mobility</label></div><div class="day-group"><strong>Tuesday (Tue 17 Jun):</strong><br><label><input type="checkbox" id="day-15-act-0" data-day="15" data-type="run"> Run 6km</label></div><div class="day-group"><strong>Wednesday (Wed 18 Jun):</strong><br><label><input type="checkbox" id="day-16-act-0" data-day="16" data-type="workout"> Lower Body</label></div><div class="day-group"><strong>Thursday (Thu 19 Jun):</strong><br><label><input type="checkbox" id="day-17-act-0" data-day="17" data-type="workout"> Rest</label></div><div class="day-group"><strong>Friday (Fri 20 Jun):</strong><br><label><input type="checkbox" id="day-18-act-0" data-day="18" data-type="run"> Run 5km</label><label><input type="checkbox" id="day-18-act-1" data-day="18" data-type="workout"> Upper Body</label></div><div class="day-group"><strong>Saturday (Sat 21 Jun):</strong><br><label><input type="checkbox" id="day-19-act-0" data-day="19" data-type="workout"> Stretching & Recovery</label></div><div class="day-group"><strong>Sunday (Sun 22 Jun):</strong><br><label><input type="checkbox" id="day-20-act-0" data-day="20" data-type="run"> Run 3km (light recovery pace)</label></div></div><div class="week"><h2>Week 4: 23 Jun – 29 Jun</h2><div class="day-group"><strong>Monday (Mon 23 Jun):</strong><br><label><input type="checkbox" id="day-21-act-0" data-day="21" data-type="workout"> Upper Body</label></div><div class="day-group"><strong>Tuesday (Tue 24 Jun):</strong><br><label><input type="checkbox" id="day-22-act-0" data-day="22" data-type="run"> Run 10km</label></div><div class="day-group"><strong>Wednesday (Wed 25 Jun):</strong><br><label><input type="checkbox" id="day-23-act-0" data-day="23" data-type="workout"> Core</label><label><input type="checkbox" id="day-23-act-1" data-day="23" data-type="workout"> Stretching</label></div><div class="day-group"><strong>Thursday (Thu 26 Jun):</strong><br><label><input type="checkbox" id="day-24-act-0" data-day="24" data-type="run"> Run 5km</label><label><input type="checkbox" id="day-24-act-1" data-day="24" data-type="workout"> Lower Body</label></div><div class="day-group"><strong>Friday (Fri 27 Jun):</strong><br><label><input type="checkbox" id="day-25-act-0" data-day="25" data-type="workout"> Rest</label></div><div class="day-group"><strong>Saturday (Sat 28 Jun):</strong><br><label><input type="checkbox" id="day-26-act-0" data-day="26" data-type="run"> Run 4km (light recovery pace)</label></div><div class="day-group"><strong>Sunday (Sun 29 Jun):</strong><br><label><input type="checkbox" id="day-27-act-0" data-day="27" data-type="workout"> Full-body Mobility/Stretching</label></div></div>
-</div>
-
+<h2 style="text-align: center;">Your Custom Routine</h2>
+<div id="routineDisplay" style="max-width: 600px; margin: 0 auto; padding: 20px;"></div>
 <script>
-    const graphData = Array(28).fill().map(() => ({ run: 0, workout: 0 }));
-
-    function updateGraph() {
-        const g = document.getElementById("graphContent");
-        g.innerHTML = "";
-        const barWidth = 15, gap = 10, xOffset = 50;
-        for (let i = 0; i < graphData.length; i++) {
-            const x = xOffset + i * (barWidth + gap);
-            const runHeight = (graphData[i].run / 10) * 100;
-            const y = 150 - runHeight;
-            if (graphData[i].run > 0) {
-                g.innerHTML += `<rect x="${x}" y="${y}" width="${barWidth}" height="${runHeight}" class="run-bar" />`;
-            }
-            if (graphData[i].workout > 0) {
-                g.innerHTML += `<circle cx="${x + barWidth/2}" cy="160" r="5" class="workout-dot"/>`;
-            }
-            if (i % 7 === 0) {
-                g.innerHTML += `<text x="${x}" y="180" class="bar-label">Week ${Math.floor(i/7)+1}</text>`;
-            }
-        }
+  async function loadRoutine() {
+    const routineId = localStorage.getItem('userRoutineId');
+    if (!routineId) {
+      document.getElementById("routineDisplay").innerHTML = "<p>No routine found. Please set up your routine in settings.</p>";
+      return;
     }
 
-    function attachListeners() {
-        const checkboxes = document.querySelectorAll("input[type=checkbox]");
-        checkboxes.forEach(cb => {
-            cb.addEventListener("change", () => {
-                const idx = parseInt(cb.dataset.day);
-                const type = cb.dataset.type;
-                const all = document.querySelectorAll(`input[data-day='${idx}'][data-type='${type}']`);
-                const checked = Array.from(all).filter(c => c.checked).length;
-                graphData[idx][type] = type === "run" ? checked * 3 : checked;
-                updateGraph();
-            });
-        });
+    try {
+      const response = await fetch('routines.json');
+      const routines = await response.json();
+      const match = routines.find(r => r.id === routineId);
+      if (!match) {
+        document.getElementById("routineDisplay").innerHTML = "<p>Could not find your routine match.</p>";
+        return;
+      }
+
+      let html = `<h3>${match.title}</h3><p>${match.description}</p><ul>`;
+      for (const entry of match.schedule) {
+        html += `<li><strong>${entry.day}:</strong> ${entry.activity}</li>`;
+      }
+      html += "</ul>";
+      document.getElementById("routineDisplay").innerHTML = html;
+
+    } catch (e) {
+      document.getElementById("routineDisplay").innerHTML = "<p>Error loading routine data.</p>";
     }
+  }
 
-    attachListeners();
-    updateGraph();
-
-    function saveState() {
-        const checkboxes = document.querySelectorAll("input[type=checkbox]");
-        const state = {};
-        checkboxes.forEach(cb => {
-            state[cb.id] = cb.checked;
-        });
-        localStorage.setItem("trackerState", JSON.stringify(state));
-    }
-
-    function restoreState() {
-        const stateStr = localStorage.getItem("trackerState");
-        if (!stateStr) return;
-        const state = JSON.parse(stateStr);
-        const checkboxes = document.querySelectorAll("input[type=checkbox]");
-        checkboxes.forEach(cb => {
-            if (state[cb.id]) cb.checked = true;
-        });
-
-        // Recalculate graph data
-        checkboxes.forEach(cb => {
-            const idx = parseInt(cb.dataset.day);
-            const type = cb.dataset.type;
-            const all = document.querySelectorAll(`input[data-day='${idx}'][data-type='${type}']`);
-            const checked = Array.from(all).filter(c => c.checked).length;
-            graphData[idx][type] = type === "run" ? checked * 3 : checked;
-        });
-
-        updateGraph();
-    }
-
-    // Attach save functionality to every checkbox
-    function attachListenersWithSave() {
-        const checkboxes = document.querySelectorAll("input[type=checkbox]");
-        checkboxes.forEach(cb => {
-            cb.addEventListener("change", () => {
-                const idx = parseInt(cb.dataset.day);
-                const type = cb.dataset.type;
-                const all = document.querySelectorAll(`input[data-day='${idx}'][data-type='${type}']`);
-                const checked = Array.from(all).filter(c => c.checked).length;
-                graphData[idx][type] = type === "run" ? checked * 3 : checked;
-                updateGraph();
-                saveState();
-            });
-        });
-    }
-
-    restoreState();
-    attachListenersWithSave();
-    
-
-</body>
-</html>
+  loadRoutine();
+</script>
+</body></html>

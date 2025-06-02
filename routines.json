@@ -1,0 +1,212 @@
+[
+  {
+    "id": "Lose Weight_Cardio_3_no_yes",
+    "title": "Light Cardio for Weight Loss",
+    "description": "A simple 3-day weekly plan focused on walking and bodyweight cardio.",
+    "schedule": [
+      {
+        "day": "Monday",
+        "activity": "30 min brisk walk"
+      },
+      {
+        "day": "Wednesday",
+        "activity": "20 min HIIT bodyweight workout"
+      },
+      {
+        "day": "Friday",
+        "activity": "45 min walk + stretching"
+      }
+    ]
+  },
+  {
+    "id": "Build Muscle_Strength_4_yes_no",
+    "title": "Strength Gains Program",
+    "description": "A 4-day plan using dumbbells for strength development.",
+    "schedule": [
+      {
+        "day": "Monday",
+        "activity": "Upper Body Strength (Dumbbells)"
+      },
+      {
+        "day": "Tuesday",
+        "activity": "Lower Body Strength (Dumbbells)"
+      },
+      {
+        "day": "Thursday",
+        "activity": "Full Body Strength"
+      },
+      {
+        "day": "Saturday",
+        "activity": "Core & Conditioning"
+      }
+    ]
+  },
+  {
+    "id": "Increase Endurance_Mixed_5_yes_yes",
+    "title": "Endurance Builder (Mixed)",
+    "description": "A blend of cardio and strength to improve overall stamina.",
+    "schedule": [
+      {
+        "day": "Monday",
+        "activity": "30 min run + 10 min core"
+      },
+      {
+        "day": "Tuesday",
+        "activity": "Full Body Strength"
+      },
+      {
+        "day": "Thursday",
+        "activity": "Interval Run + Mobility"
+      },
+      {
+        "day": "Friday",
+        "activity": "Upper Body + Core"
+      },
+      {
+        "day": "Sunday",
+        "activity": "Long Walk or Hike"
+      }
+    ]
+  },
+  {
+    "id": "General Fitness_Mixed_3_no_yes",
+    "title": "Balanced Fitness Routine",
+    "description": "A simple plan to stay active across different workout types.",
+    "schedule": [
+      {
+        "day": "Monday",
+        "activity": "20 min bodyweight circuit"
+      },
+      {
+        "day": "Wednesday",
+        "activity": "30 min walk + stretching"
+      },
+      {
+        "day": "Friday",
+        "activity": "Core & light strength"
+      }
+    ]
+  },
+  {
+    "id": "Improve Mobility_Yoga / Mobility_2_no_yes",
+    "title": "Gentle Mobility Focus",
+    "description": "Relaxing and restorative mobility sessions.",
+    "schedule": [
+      {
+        "day": "Tuesday",
+        "activity": "30 min yoga (follow-along)"
+      },
+      {
+        "day": "Saturday",
+        "activity": "Mobility + Breathwork"
+      }
+    ]
+  },
+  {
+    "id": "Lose Weight_Mixed_5_no_no",
+    "title": "HIIT & Core Burn",
+    "description": "Fast-paced, equipment-free fat burning sessions.",
+    "schedule": [
+      {
+        "day": "Mon",
+        "activity": "20 min HIIT"
+      },
+      {
+        "day": "Tue",
+        "activity": "Core & Stretch"
+      },
+      {
+        "day": "Wed",
+        "activity": "30 min circuit"
+      },
+      {
+        "day": "Fri",
+        "activity": "Core + Intervals"
+      },
+      {
+        "day": "Sat",
+        "activity": "Yoga for Recovery"
+      }
+    ]
+  },
+  {
+    "id": "Build Muscle_Strength_3_yes_yes",
+    "title": "Dumbbell Power Routine",
+    "description": "Three intense dumbbell strength sessions.",
+    "schedule": [
+      {
+        "day": "Mon",
+        "activity": "Push Day"
+      },
+      {
+        "day": "Wed",
+        "activity": "Pull Day"
+      },
+      {
+        "day": "Fri",
+        "activity": "Leg Day"
+      }
+    ]
+  },
+  {
+    "id": "General Fitness_Walking_4_no_yes",
+    "title": "Active Walking Routine",
+    "description": "Daily steps and light cardio with recovery focus.",
+    "schedule": [
+      {
+        "day": "Mon",
+        "activity": "30 min walk"
+      },
+      {
+        "day": "Tue",
+        "activity": "45 min walk"
+      },
+      {
+        "day": "Thu",
+        "activity": "30 min walk + stretch"
+      },
+      {
+        "day": "Sat",
+        "activity": "Long walk (60 min)"
+      }
+    ]
+  },
+  {
+    "id": "Increase Endurance_Cardio_3_no_no",
+    "title": "Cardio Booster Plan",
+    "description": "Focus on running and cardio intervals.",
+    "schedule": [
+      {
+        "day": "Mon",
+        "activity": "Run: 20 min intervals"
+      },
+      {
+        "day": "Wed",
+        "activity": "Tempo run: 30 min"
+      },
+      {
+        "day": "Sat",
+        "activity": "Long run: 45+ min"
+      }
+    ]
+  },
+  {
+    "id": "Improve Mobility_Mixed_3_no_yes",
+    "title": "Balanced Recovery Routine",
+    "description": "Mobility blended with light movement to restore and energize.",
+    "schedule": [
+      {
+        "day": "Tue",
+        "activity": "Mobility drills + breathwork"
+      },
+      {
+        "day": "Thu",
+        "activity": "Light yoga flow"
+      },
+      {
+        "day": "Sun",
+        "activity": "Stretch + 30 min walk"
+      }
+    ]
+  }
+]
