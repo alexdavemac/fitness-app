@@ -9,7 +9,7 @@
 <meta content="FitnessApp" name="apple-mobile-web-app-title"/>
 <link href="icon-192.png" rel="apple-touch-icon"/>
 <meta charset="utf-8"/>
-<title>Fitness App</title>
+<title>Private Fitness Tracker</title>
 <style>
 body {
     font-family: 'Segoe UI', sans-serif;
@@ -72,7 +72,12 @@ a.button-link:hover {
 <button onclick="login()">Log In</button>
 <button onclick="window.location.href='sign_up.html'">Sign Up</button>
 </div>
-
+<div id="mainMenu">
+<h1>Hello, <span id="userDisplay"></span></h1>
+<button onclick="goTo('tracker')">Tracker</button><br/>
+<button onclick="goTo('logbook')">Log Book</button><br/>
+<button onclick="goTo('stats')">Statistics</button>
+</div>
 <script>
 function login() {
     const username = document.getElementById("username").value.trim();

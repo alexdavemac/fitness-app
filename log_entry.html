@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Log an Activity</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        label, input, select {
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #3e8ed0;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Log an Activity</h1>
+    <form id="activityForm">
+        <label for="activityType">Activity Type:</label>
+        <input type="text" id="activityType" required />
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" required />
+
+        <label for="duration">Duration (minutes):</label>
+        <input type="number" id="duration" required />
+
+        <label for="effort">Effort Level (1–10):</label>
+        <input type="number" id="effort" min="1" max="10" required />
+
+        <button type="submit">Save Activity</button>
+    </form>
+
+    <script>
+        document.getElementById("activityForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const activity = {
+                type: document.getElementById("activityType").value,
+                date: document.getElementById("date").value,
+                duration: document.getElementById("duration").value,
+                effort: document.getElementById("effort").value
+            };
+
+            const key = "fitnessAppActivities";
+            const existing = JSON.parse(localStorage.getItem(key)) || [];
+            existing.push(activity);
+            localStorage.setItem(key, JSON.stringify(existing));
+            alert("Activity saved!");
+            event.target.reset();
+        });
+    </script>
+</body>
+</html>
