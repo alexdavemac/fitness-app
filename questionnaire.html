@@ -1,11 +1,12 @@
 
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Select Your Routine</title>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Select Your Routine</title>
+<style>
     body {
       font-family: 'Segoe UI', sans-serif;
       padding: 20px;
@@ -37,65 +38,109 @@
       cursor: pointer;
       width: 100%;
     }
+    .optional-heading {
+      margin-top: 40px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #555;
+    }
   </style>
 </head>
 <body>
-  <h1>Select Your Routine</h1>
-  <form id="routineForm">
-    <label for="goal">Primary Goal:</label>
-    <select id="goal">
-      <option>Lose Weight</option>
-      <option>Build Muscle</option>
-      <option>Increase Endurance</option>
-      <option>Improve Mobility</option>
-      <option>General Fitness</option>
-    </select>
+<h1>Select Your Routine</h1>
+<form id="routineForm">
+<label for="goal">Primary Goal:</label>
+<select id="goal">
+<option>Lose Weight</option>
+<option>Build Muscle</option>
+<option>Increase Endurance</option>
+<option>Improve Mobility</option>
+<option>General Fitness</option>
+</select>
+<label for="style">Preferred Workout Style:</label>
+<select id="style">
+<option>Cardio</option>
+<option>Strength</option>
+<option>Mixed</option>
+<option>Yoga / Mobility</option>
+<option>Walking</option>
+</select>
+<label for="days">Days per Week:</label>
+<input id="days" max="5" min="2" type="number" value="3"/>
+<label for="equipment">Do you have equipment?</label>
+<select id="equipment">
+<option value="yes">Yes</option>
+<option value="no">No</option>
+</select>
+<label for="duration">Prefer short sessions (under 30 min)?</label>
+<select id="duration">
+<option value="yes">Yes</option>
+<option value="no">No</option>
+</select>
+<p class="optional-heading">Here are some optional questions to allow you to further customise your routine:</p>
+<label for="weeklyRunning">What is your target weekly running distance? (km)</label>
+<input id="weeklyRunning" placeholder="Optional" type="number"/>
+<label for="nonRunningWorkouts">How many non-running workouts per week?</label>
+<input id="nonRunningWorkouts" placeholder="Optional" type="number"/>
+<button type="submit">Save My Routine</button>
+</form>
 
-    <label for="style">Preferred Workout Style:</label>
-    <select id="style">
-      <option>Cardio</option>
-      <option>Strength</option>
-      <option>Mixed</option>
-      <option>Yoga / Mobility</option>
-      <option>Walking</option>
-    </select>
+<script>
+  async function fetchJSON(file) {
+    const response = await fetch(file);
+    return await response.json();
+  }
 
-    <label for="days">Days per Week:</label>
-    <input type="number" id="days" min="1" max="7" value="3" />
+  function meetsOptionalCriteria(routine, weeklyRunning, nonRunningWorkouts) {
+    let runDistance = 0;
+    let workoutCount = 0;
 
-    <label for="equipment">Do you have equipment?</label>
-    <select id="equipment">
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
-    </select>
+    for (const item of routine.schedule) {
+      const desc = item.activity.toLowerCase();
+      const runMatch = desc.match(/(\d+)(\.\d+)?\s?km/);
+      if (runMatch) runDistance += parseFloat(runMatch[0]);
 
-    <label for="duration">Prefer short sessions (under 30 min)?</label>
-    <select id="duration">
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
-    </select>
+      if (!desc.includes("run")) workoutCount++;
+    }
 
-    <button type="submit">Save My Routine</button>
-  </form>
+    const meetsRun = !weeklyRunning || runDistance >= parseInt(weeklyRunning);
+    const meetsWorkouts = !nonRunningWorkouts || workoutCount >= parseInt(nonRunningWorkouts);
+    return meetsRun && meetsWorkouts;
+  }
 
-  <script>
-    document.getElementById("routineForm").addEventListener("submit", function(event) {
-      event.preventDefault();
-      const answers = {
-        goal: document.getElementById("goal").value,
-        style: document.getElementById("style").value,
-        days: parseInt(document.getElementById("days").value),
-        equipment: document.getElementById("equipment").value,
-        duration: document.getElementById("duration").value
-      };
+  document.getElementById("routineForm").addEventListener("submit", async function(event) {
+    event.preventDefault();
+    const answers = {
+      goal: document.getElementById("goal").value,
+      style: document.getElementById("style").value,
+      days: parseInt(document.getElementById("days").value),
+      equipment: document.getElementById("equipment").value,
+      duration: document.getElementById("duration").value,
+      optional: {
+        weeklyRunning: document.getElementById("weeklyRunning").value || null,
+        nonRunningWorkouts: document.getElementById("nonRunningWorkouts").value || null
+      }
+    };
 
-      // Match to a routine ID (basic version — real logic will be expanded)
-      const routineId = answers.goal + "_" + answers.style + "_" + answers.days + "_" + answers.equipment + "_" + answers.duration;
-      localStorage.setItem("userRoutineAnswers", JSON.stringify(answers));
-      localStorage.setItem("userRoutineId", routineId);
+    const comboId = `${answers.goal}_${answers.style}_${answers.days}_${answers.equipment}_${answers.duration}`;
+    const optionalRoutines = await fetchJSON('optional_routines.json');
 
-      window.location.href = "tracker.html";
-    });
-  </script>
-</body>
+    // Try to match optional routine first
+    let selectedRoutine = optionalRoutines.find(r =>
+      meetsOptionalCriteria(r, answers.optional.weeklyRunning, answers.optional.nonRunningWorkouts)
+    );
+
+    let routineId = selectedRoutine ? selectedRoutine.id : null;
+
+    // If no optional match, use fallback map
+    if (!routineId) {
+      const fallbackMap = await fetchJSON('routine_mapping.json');
+      routineId = fallbackMap[comboId] || "General Fitness_Mixed_3_no_yes";
+    }
+
+    localStorage.setItem("userRoutineAnswers", JSON.stringify(answers));
+    localStorage.setItem("userRoutineId", routineId);
+    window.location.href = "tracker.html";
+  });
+</script></body>
 </html>

@@ -1,0 +1,2810 @@
+[
+  {
+    "id": "Endurance_Running10km_Strength2x",
+    "title": "Endurance Focus: 10km Running + 2x Strength",
+    "description": "Balanced plan including 10km weekly running and two strength sessions.",
+    "schedule": [
+      {
+        "day": "Monday",
+        "activity": "4km Tempo Run"
+      },
+      {
+        "day": "Tuesday",
+        "activity": "Upper Body Strength"
+      },
+      {
+        "day": "Thursday",
+        "activity": "3km Interval Run"
+      },
+      {
+        "day": "Friday",
+        "activity": "Lower Body Strength"
+      },
+      {
+        "day": "Sunday",
+        "activity": "3km Easy Run + Core"
+      }
+    ]
+  },
+  {
+    "id": "General_Running5km_Yoga1x",
+    "title": "Light Running + Weekly Yoga",
+    "description": "For general fitness with modest cardio and restorative yoga.",
+    "schedule": [
+      {
+        "day": "Tuesday",
+        "activity": "2km Run + Stretch"
+      },
+      {
+        "day": "Thursday",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Saturday",
+        "activity": "3km Run + Core"
+      }
+    ]
+  },
+  {
+    "id": "WeightLoss_Running15km_HIIT3x",
+    "title": "Weight Loss: Intense Cardio & HIIT",
+    "description": "For fast fat burn: 15km weekly running and 3 high-intensity workouts.",
+    "schedule": [
+      {
+        "day": "Monday",
+        "activity": "4km Run + Core HIIT"
+      },
+      {
+        "day": "Tuesday",
+        "activity": "20 min HIIT"
+      },
+      {
+        "day": "Wednesday",
+        "activity": "5km Run"
+      },
+      {
+        "day": "Friday",
+        "activity": "Full Body HIIT"
+      },
+      {
+        "day": "Sunday",
+        "activity": "6km Long Run"
+      }
+    ]
+  },
+  {
+    "id": "Strength_Builder_NoneRun_Strength4x",
+    "title": "Pure Strength Builder",
+    "description": "No running, 4 strength sessions a week for muscle growth.",
+    "schedule": [
+      {
+        "day": "Monday",
+        "activity": "Upper Body Push"
+      },
+      {
+        "day": "Tuesday",
+        "activity": "Lower Body Squat Focus"
+      },
+      {
+        "day": "Thursday",
+        "activity": "Pull + Core"
+      },
+      {
+        "day": "Saturday",
+        "activity": "Full Body Dumbbell Circuit"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run5_Wk1",
+    "title": "Lose Weight Plan: 5km Run + 1x Workouts",
+    "description": "A mixed routine with 5km weekly running and 1 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "BuildMuscle_Strength_Run5_Wk1",
+    "title": "Build Muscle Plan: 5km Run + 1x Workouts",
+    "description": "A strength routine with 5km weekly running and 1 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run5_Wk1",
+    "title": "Increase Endurance Plan: 5km Run + 1x Workouts",
+    "description": "A cardio routine with 5km weekly running and 1 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run5_Wk2",
+    "title": "Lose Weight Plan: 5km Run + 2x Workouts",
+    "description": "A mixed routine with 5km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "HIIT Session"
+      }
+    ]
+  },
+  {
+    "id": "BuildMuscle_Strength_Run5_Wk2",
+    "title": "Build Muscle Plan: 5km Run + 2x Workouts",
+    "description": "A strength routine with 5km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "HIIT Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run5_Wk2",
+    "title": "Increase Endurance Plan: 5km Run + 2x Workouts",
+    "description": "A cardio routine with 5km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run5_Wk3",
+    "title": "Lose Weight Plan: 5km Run + 3x Workouts",
+    "description": "A mixed routine with 5km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Core Session"
+      }
+    ]
+  },
+  {
+    "id": "BuildMuscle_Strength_Run5_Wk3",
+    "title": "Build Muscle Plan: 5km Run + 3x Workouts",
+    "description": "A strength routine with 5km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "HIIT Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run5_Wk3",
+    "title": "Increase Endurance Plan: 5km Run + 3x Workouts",
+    "description": "A cardio routine with 5km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run5_Wk4",
+    "title": "Lose Weight Plan: 5km Run + 4x Workouts",
+    "description": "A mixed routine with 5km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "BuildMuscle_Strength_Run5_Wk4",
+    "title": "Build Muscle Plan: 5km Run + 4x Workouts",
+    "description": "A strength routine with 5km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Upper Body Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run5_Wk4",
+    "title": "Increase Endurance Plan: 5km Run + 4x Workouts",
+    "description": "A cardio routine with 5km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "1.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Core Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run10_Wk1",
+    "title": "Lose Weight Plan: 10km Run + 1x Workouts",
+    "description": "A mixed routine with 10km weekly running and 1 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      }
+    ]
+  },
+  {
+    "id": "BuildMuscle_Strength_Run10_Wk1",
+    "title": "Build Muscle Plan: 10km Run + 1x Workouts",
+    "description": "A strength routine with 10km weekly running and 1 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "HIIT Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run10_Wk1",
+    "title": "Increase Endurance Plan: 10km Run + 1x Workouts",
+    "description": "A cardio routine with 10km weekly running and 1 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run10_Wk2",
+    "title": "Lose Weight Plan: 10km Run + 2x Workouts",
+    "description": "A mixed routine with 10km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Core Session"
+      }
+    ]
+  },
+  {
+    "id": "BuildMuscle_Strength_Run10_Wk2",
+    "title": "Build Muscle Plan: 10km Run + 2x Workouts",
+    "description": "A strength routine with 10km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run10_Wk2",
+    "title": "Increase Endurance Plan: 10km Run + 2x Workouts",
+    "description": "A cardio routine with 10km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Mobility Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run10_Wk3",
+    "title": "Lose Weight Plan: 10km Run + 3x Workouts",
+    "description": "A mixed routine with 10km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Mobility Session"
+      }
+    ]
+  },
+  {
+    "id": "BuildMuscle_Strength_Run10_Wk3",
+    "title": "Build Muscle Plan: 10km Run + 3x Workouts",
+    "description": "A strength routine with 10km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Mobility Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run10_Wk3",
+    "title": "Increase Endurance Plan: 10km Run + 3x Workouts",
+    "description": "A cardio routine with 10km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Upper Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run10_Wk4",
+    "title": "Lose Weight Plan: 10km Run + 4x Workouts",
+    "description": "A mixed routine with 10km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Mobility Session"
+      }
+    ]
+  },
+  {
+    "id": "BuildMuscle_Strength_Run10_Wk4",
+    "title": "Build Muscle Plan: 10km Run + 4x Workouts",
+    "description": "A strength routine with 10km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run10_Wk4",
+    "title": "Increase Endurance Plan: 10km Run + 4x Workouts",
+    "description": "A cardio routine with 10km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "3.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run15_Wk1",
+    "title": "Lose Weight Plan: 15km Run + 1x Workouts",
+    "description": "A mixed routine with 15km weekly running and 1 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Upper Body Session"
+      }
+    ]
+  },
+  {
+    "id": "BuildMuscle_Strength_Run15_Wk1",
+    "title": "Build Muscle Plan: 15km Run + 1x Workouts",
+    "description": "A strength routine with 15km weekly running and 1 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run15_Wk1",
+    "title": "Increase Endurance Plan: 15km Run + 1x Workouts",
+    "description": "A cardio routine with 15km weekly running and 1 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run15_Wk2",
+    "title": "Lose Weight Plan: 15km Run + 2x Workouts",
+    "description": "A mixed routine with 15km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "BuildMuscle_Strength_Run15_Wk2",
+    "title": "Build Muscle Plan: 15km Run + 2x Workouts",
+    "description": "A strength routine with 15km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run15_Wk2",
+    "title": "Increase Endurance Plan: 15km Run + 2x Workouts",
+    "description": "A cardio routine with 15km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "HIIT Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run15_Wk3",
+    "title": "Lose Weight Plan: 15km Run + 3x Workouts",
+    "description": "A mixed routine with 15km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Upper Body Session"
+      }
+    ]
+  },
+  {
+    "id": "BuildMuscle_Strength_Run15_Wk3",
+    "title": "Build Muscle Plan: 15km Run + 3x Workouts",
+    "description": "A strength routine with 15km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run15_Wk3",
+    "title": "Increase Endurance Plan: 15km Run + 3x Workouts",
+    "description": "A cardio routine with 15km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run15_Wk4",
+    "title": "Lose Weight Plan: 15km Run + 4x Workouts",
+    "description": "A mixed routine with 15km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Core Session"
+      }
+    ]
+  },
+  {
+    "id": "BuildMuscle_Strength_Run15_Wk4",
+    "title": "Build Muscle Plan: 15km Run + 4x Workouts",
+    "description": "A strength routine with 15km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Upper Body Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run15_Wk4",
+    "title": "Increase Endurance Plan: 15km Run + 4x Workouts",
+    "description": "A cardio routine with 15km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "5.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Mobility Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run20_Wk1",
+    "title": "Lose Weight Plan: 20km Run + 1x Workouts",
+    "description": "A mixed routine with 20km weekly running and 1 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Upper Body Session"
+      }
+    ]
+  },
+  {
+    "id": "BuildMuscle_Strength_Run20_Wk1",
+    "title": "Build Muscle Plan: 20km Run + 1x Workouts",
+    "description": "A strength routine with 20km weekly running and 1 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run20_Wk1",
+    "title": "Increase Endurance Plan: 20km Run + 1x Workouts",
+    "description": "A cardio routine with 20km weekly running and 1 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run20_Wk2",
+    "title": "Lose Weight Plan: 20km Run + 2x Workouts",
+    "description": "A mixed routine with 20km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "HIIT Session"
+      }
+    ]
+  },
+  {
+    "id": "BuildMuscle_Strength_Run20_Wk2",
+    "title": "Build Muscle Plan: 20km Run + 2x Workouts",
+    "description": "A strength routine with 20km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Core Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run20_Wk2",
+    "title": "Increase Endurance Plan: 20km Run + 2x Workouts",
+    "description": "A cardio routine with 20km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run20_Wk3",
+    "title": "Lose Weight Plan: 20km Run + 3x Workouts",
+    "description": "A mixed routine with 20km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "BuildMuscle_Strength_Run20_Wk3",
+    "title": "Build Muscle Plan: 20km Run + 3x Workouts",
+    "description": "A strength routine with 20km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run20_Wk3",
+    "title": "Increase Endurance Plan: 20km Run + 3x Workouts",
+    "description": "A cardio routine with 20km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run20_Wk4",
+    "title": "Lose Weight Plan: 20km Run + 4x Workouts",
+    "description": "A mixed routine with 20km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Upper Body Session"
+      }
+    ]
+  },
+  {
+    "id": "BuildMuscle_Strength_Run20_Wk4",
+    "title": "Build Muscle Plan: 20km Run + 4x Workouts",
+    "description": "A strength routine with 20km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run20_Wk4",
+    "title": "Increase Endurance Plan: 20km Run + 4x Workouts",
+    "description": "A cardio routine with 20km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "6.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Core Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run25_Wk2",
+    "title": "Increase Endurance Plan: 25km Run + 2x Workouts",
+    "description": "A cardio routine with 25km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run25_Wk2",
+    "title": "Lose Weight Plan: 25km Run + 2x Workouts",
+    "description": "A mixed routine with 25km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Core Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run25_Wk3",
+    "title": "Increase Endurance Plan: 25km Run + 3x Workouts",
+    "description": "A cardio routine with 25km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run25_Wk3",
+    "title": "Lose Weight Plan: 25km Run + 3x Workouts",
+    "description": "A mixed routine with 25km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run25_Wk4",
+    "title": "Increase Endurance Plan: 25km Run + 4x Workouts",
+    "description": "A cardio routine with 25km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run25_Wk4",
+    "title": "Lose Weight Plan: 25km Run + 4x Workouts",
+    "description": "A mixed routine with 25km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run25_Wk5",
+    "title": "Increase Endurance Plan: 25km Run + 5x Workouts",
+    "description": "A cardio routine with 25km weekly running and 5 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 5",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run25_Wk5",
+    "title": "Lose Weight Plan: 25km Run + 5x Workouts",
+    "description": "A mixed routine with 25km weekly running and 5 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "8.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 5",
+        "activity": "Mobility Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run30_Wk2",
+    "title": "Increase Endurance Plan: 30km Run + 2x Workouts",
+    "description": "A cardio routine with 30km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Upper Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run30_Wk2",
+    "title": "Lose Weight Plan: 30km Run + 2x Workouts",
+    "description": "A mixed routine with 30km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run30_Wk3",
+    "title": "Increase Endurance Plan: 30km Run + 3x Workouts",
+    "description": "A cardio routine with 30km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run30_Wk3",
+    "title": "Lose Weight Plan: 30km Run + 3x Workouts",
+    "description": "A mixed routine with 30km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run30_Wk4",
+    "title": "Increase Endurance Plan: 30km Run + 4x Workouts",
+    "description": "A cardio routine with 30km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run30_Wk4",
+    "title": "Lose Weight Plan: 30km Run + 4x Workouts",
+    "description": "A mixed routine with 30km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Mobility Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run30_Wk5",
+    "title": "Increase Endurance Plan: 30km Run + 5x Workouts",
+    "description": "A cardio routine with 30km weekly running and 5 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 5",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run30_Wk5",
+    "title": "Lose Weight Plan: 30km Run + 5x Workouts",
+    "description": "A mixed routine with 30km weekly running and 5 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "10.0km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 5",
+        "activity": "Upper Body Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run35_Wk2",
+    "title": "Increase Endurance Plan: 35km Run + 2x Workouts",
+    "description": "A cardio routine with 35km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run35_Wk2",
+    "title": "Lose Weight Plan: 35km Run + 2x Workouts",
+    "description": "A mixed routine with 35km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Mobility Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run35_Wk3",
+    "title": "Increase Endurance Plan: 35km Run + 3x Workouts",
+    "description": "A cardio routine with 35km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run35_Wk3",
+    "title": "Lose Weight Plan: 35km Run + 3x Workouts",
+    "description": "A mixed routine with 35km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run35_Wk4",
+    "title": "Increase Endurance Plan: 35km Run + 4x Workouts",
+    "description": "A cardio routine with 35km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run35_Wk4",
+    "title": "Lose Weight Plan: 35km Run + 4x Workouts",
+    "description": "A mixed routine with 35km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Core Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run35_Wk5",
+    "title": "Increase Endurance Plan: 35km Run + 5x Workouts",
+    "description": "A cardio routine with 35km weekly running and 5 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 5",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run35_Wk5",
+    "title": "Lose Weight Plan: 35km Run + 5x Workouts",
+    "description": "A mixed routine with 35km weekly running and 5 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "11.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 5",
+        "activity": "HIIT Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run40_Wk2",
+    "title": "Increase Endurance Plan: 40km Run + 2x Workouts",
+    "description": "A cardio routine with 40km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run40_Wk2",
+    "title": "Lose Weight Plan: 40km Run + 2x Workouts",
+    "description": "A mixed routine with 40km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Mobility Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run40_Wk3",
+    "title": "Increase Endurance Plan: 40km Run + 3x Workouts",
+    "description": "A cardio routine with 40km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Mobility Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run40_Wk3",
+    "title": "Lose Weight Plan: 40km Run + 3x Workouts",
+    "description": "A mixed routine with 40km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Core Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run40_Wk4",
+    "title": "Increase Endurance Plan: 40km Run + 4x Workouts",
+    "description": "A cardio routine with 40km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Upper Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run40_Wk4",
+    "title": "Lose Weight Plan: 40km Run + 4x Workouts",
+    "description": "A mixed routine with 40km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Mobility Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run40_Wk5",
+    "title": "Increase Endurance Plan: 40km Run + 5x Workouts",
+    "description": "A cardio routine with 40km weekly running and 5 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 5",
+        "activity": "Mobility Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run40_Wk5",
+    "title": "Lose Weight Plan: 40km Run + 5x Workouts",
+    "description": "A mixed routine with 40km weekly running and 5 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "13.3km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 5",
+        "activity": "HIIT Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run50_Wk2",
+    "title": "Increase Endurance Plan: 50km Run + 2x Workouts",
+    "description": "A cardio routine with 50km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run50_Wk2",
+    "title": "Lose Weight Plan: 50km Run + 2x Workouts",
+    "description": "A mixed routine with 50km weekly running and 2 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run50_Wk3",
+    "title": "Increase Endurance Plan: 50km Run + 3x Workouts",
+    "description": "A cardio routine with 50km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run50_Wk3",
+    "title": "Lose Weight Plan: 50km Run + 3x Workouts",
+    "description": "A mixed routine with 50km weekly running and 3 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "HIIT Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run50_Wk4",
+    "title": "Increase Endurance Plan: 50km Run + 4x Workouts",
+    "description": "A cardio routine with 50km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Upper Body Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Upper Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run50_Wk4",
+    "title": "Lose Weight Plan: 50km Run + 4x Workouts",
+    "description": "A mixed routine with 50km weekly running and 4 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Core Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Yoga Session"
+      }
+    ]
+  },
+  {
+    "id": "IncreaseEndurance_Cardio_Run50_Wk5",
+    "title": "Increase Endurance Plan: 50km Run + 5x Workouts",
+    "description": "A cardio routine with 50km weekly running and 5 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "HIIT Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 5",
+        "activity": "Lower Body Session"
+      }
+    ]
+  },
+  {
+    "id": "LoseWeight_Mixed_Run50_Wk5",
+    "title": "Lose Weight Plan: 50km Run + 5x Workouts",
+    "description": "A mixed routine with 50km weekly running and 5 workouts.",
+    "schedule": [
+      {
+        "day": "Run Day 1",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Run Day 2",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Run Day 3",
+        "activity": "16.7km Run"
+      },
+      {
+        "day": "Workout 1",
+        "activity": "Lower Body Session"
+      },
+      {
+        "day": "Workout 2",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 3",
+        "activity": "Mobility Session"
+      },
+      {
+        "day": "Workout 4",
+        "activity": "Yoga Session"
+      },
+      {
+        "day": "Workout 5",
+        "activity": "Upper Body Session"
+      }
+    ]
+  }
+]
